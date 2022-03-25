@@ -33,6 +33,7 @@ if __name__ == '__main__':
         print(host)
         try:
             urls = waybackurls(host, with_subs)
+            #颜色
             print("\033[1;31m"+urls+"\033[0m")
             if txt_file:
                     with open(txt_file,"a") as object:
@@ -44,6 +45,7 @@ if __name__ == '__main__':
             print(host)
             try:
                 urls=waybackurls(host, with_subs)
+                #颜色
                 print("\033[1;31m" + urls + "\033[0m")
                 if txt_file:
                     with open(txt_file,"a") as object:
