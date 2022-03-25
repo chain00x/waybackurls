@@ -4,8 +4,8 @@ import argparse
 
 parser = argparse.ArgumentParser(description='cc')
 parser.add_argument('-u',type=str,required=False,help='输入url')
-parser.add_argument('-f',type=str,required=False,help='输入文件夹')
-parser.add_argument('-o',type=str,required=False,help='输出文件夹')
+parser.add_argument('-f',type=str,required=False,help='输入文件')
+parser.add_argument('-o',type=str,required=False,help='输出文件')
 parser.add_argument('-d',type=str,required=False,help='子域名')
 txt_file=parser.parse_args().o
 host=parser.parse_args().u
