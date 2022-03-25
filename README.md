@@ -11,7 +11,7 @@
 ```python3 waybackurls.py -o output.txt -u example.com```
 
 # 3.输入文件，循环url查询
-```python3 waybackurls.py -f intput.txt -u example.com```
+```python3 waybackurls.py -f intput.txt```
 
 正在写第二版，可以根据关键字过滤
 
